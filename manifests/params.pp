@@ -48,7 +48,7 @@ class splunk::params {
   # They can be set at top scope level or in a ENC
 
   $my_class = ''
-  $source_dir = ''
+  $source_dir = undef
   $source_dir_purge = false
   $options = ''
   $absent = false
